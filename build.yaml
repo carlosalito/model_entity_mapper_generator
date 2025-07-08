@@ -1,0 +1,8 @@
+builders:
+  modelEntityMapperBuilder:
+    import: "package:model_entity_mapper/builder.dart"
+    builder_factories: ["modelEntityMapperBuilder"]
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+    build_extensions: {".dart": [".g.mapper.dart"]}
