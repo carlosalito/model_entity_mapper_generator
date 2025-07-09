@@ -2,7 +2,7 @@ import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:model_entity_mapper/annotation/model_entity_mapper_annotation.dart';
+import 'package:model_entity_mapper_annotation/model_entity_mapper.dart';
 import 'package:source_gen/source_gen.dart';
 
 const TypeChecker _modelEntityMapperChecker = TypeChecker.fromRuntime(ModelEntityMapper);

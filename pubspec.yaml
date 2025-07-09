@@ -1,4 +1,4 @@
-name: model_entity_mapper
+name: model_entity_mapper_generator
 description: "A new Flutter project."
 version: 0.0.1
 homepage:
@@ -12,6 +12,11 @@ dependencies:
     sdk: flutter
   json_annotation: ^4.9.0
   source_gen: ^2.0.0
+
+  model_entity_mapper_annotation:
+    git:
+      url: git@github.com:carlosalito/model_entity_mapper_annotation.git
+      ref: main
 
 
 dev_dependencies:
